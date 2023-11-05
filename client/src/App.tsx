@@ -140,6 +140,7 @@ function Question({
         <div style={{ width: "40%" }}>
           <h2 className="text">{question.text}</h2>
           <input
+            dir="rtl"
             ref={inputRef}
             className="input"
             value={answer}
